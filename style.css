@@ -1,0 +1,148 @@
+*{
+     font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+     background-image: url("picture/background.jpg");
+     max-width: 80%;
+     margin: auto;
+     border: 10px solid black;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+.header{
+     display: block;
+     height: 100px;
+     width: auto;
+     border-bottom: 5px solid black;
+     font-size: 40px;
+     text-align: center;
+}
+.header > *{
+     font-size: 4vw;
+     margin-inline: 10px;
+     vertical-align: sub;
+}
+#title{
+     font-weight: bold;
+     margin: 0;
+     margin-bottom: 50px;
+}
+.learn-menu > *{
+     text-align: left;
+     width: 250px;
+}
+.learn{
+     position: relative;
+     display: inline-block;
+}
+.learn-menu{
+     display: none;
+     position: absolute;
+     font-size: 40px;
+     background-color: white;
+     z-index: 1;
+}
+.learn-menu a{
+     display: block;
+}
+.learn:hover .learn-menu{
+     display: block;
+}
+.content{
+     display: block;
+     border-bottom: 1px solid black;
+}
+.content > *{
+     border-bottom: 1px solid black;
+     margin: 0;
+}
+img{
+     width: 50%;
+     height: 50%;
+     object-fit: contain;
+}
+p{
+     font-size: 3vw;
+     text-align: center;
+}
+strong{
+     margin: auto;
+     font-size: 40px;
+}
+#contenthead{
+     border-bottom: 1px solid black;
+     margin-top: 100px;
+}
+#signout > *{
+     font-size: 4vw;
+     font-weight: bold;
+     margin: 50px 0 50px 0;
+}
+.row{
+     display: flex;
+}
+.column{
+     max-width: 50%;
+     margin: auto;
+}
+.aboutus{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     font-weight: bold;
+     font-size: 3vw;
+     text-indent: 100px;
+}
+.sign-block{
+     max-width: 50%;
+     margin: auto;
+}
+.signup-signin{
+     display: flex;
+}
+form{
+     height: 100%;
+     width: 100%;
+     margin: 20px 0 20px 0;
+     padding: 15px;
+     border: 1px solid #b0c4de;
+     background: white;
+     border-radius: 0px 0px 10px 10px;
+}
+.input-group{
+     margin: 10px 0px 10px 0px;
+}
+.input-group label{
+     display: block;
+     text-align: left;
+     margin: 3px;
+}
+.input-group input{
+     height: 30px;
+     padding: 5px 10px;
+     font-size: 16px;
+     border-radius: 5px;
+     border: 1px solid gray;
+}
+.btn{
+     padding: 10px;
+     font-size: 15px;
+     color: white;
+     background: #5f9ea0;
+     border: none;
+     border-radius: 5px;
+}
+.error{
+     margin: 0px auto;
+     padding: 10px;
+     border: 1px solid #a94442;
+     color: #a94442;
+     background: #f2dede;
+     border-radius: 5px;
+     text-align: center;
+}
+.success{
+     color: #3c763d;
+     background: #dff9d8;
+     border: 1px solid #3c763d;
+     margin-bottom: 20px;
+}
